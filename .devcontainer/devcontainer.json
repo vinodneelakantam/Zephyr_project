@@ -1,0 +1,10 @@
+{
+  "name": "Zephyr Project Dev Container",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ac6.zephyr-workbench"
+      ]
+    }
+  }
+}

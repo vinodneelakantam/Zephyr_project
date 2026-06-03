@@ -1,5 +1,6 @@
 {
   "name": "Zephyr Project Dev Container",
+  "postCreateCommand": "bash .devcontainer/setup-zephyr-host-tools.sh",
   "customizations": {
     "vscode": {
       "extensions": [

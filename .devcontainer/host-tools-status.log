@@ -1,0 +1,10 @@
+Zephyr host-tools setup report
+Generated at: 2026-06-03 14:47:34 UTC
+Workspace: /workspaces/Zephyr_project
+
+VS Code extension configured in devcontainer: ac6.zephyr-workbench
+
+Before install command status
+Installed commands: cmake python3
+Missing commands: west ninja dtc gperf openocd arm-none-eabi-gcc
+

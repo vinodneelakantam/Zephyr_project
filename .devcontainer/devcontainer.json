@@ -1,5 +1,8 @@
 {
   "name": "Zephyr Project Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "postCreateCommand": "bash .devcontainer/setup-zephyr-host-tools.sh",
   "customizations": {
     "vscode": {

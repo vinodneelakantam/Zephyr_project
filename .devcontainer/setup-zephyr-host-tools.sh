@@ -114,9 +114,9 @@ log_line ""
 
 log_command_status "Before install"
 
-sudo apt-get update
-sudo apt-get install -y "${APT_PACKAGES[@]}"
-python3 -m pip install --upgrade west
+log_line "Install phase"
+log_line "Zephyr host tools are installed during image build from .devcontainer/Dockerfile."
+log_line ""
 
 log_command_status "After install"
 log_package_status
